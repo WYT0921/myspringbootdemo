@@ -1,0 +1,13 @@
+#Spring:
+#  datasource:
+#    name: test
+#    url:
+spring:
+  datasource: #???
+    driver-class-name: com.mysql.cj.jdbc.Driver #?????
+    url: jdbc:mysql://localhost:3306/alice_test?serverTimezone=CTT&useUnicode=true&characterEncoding=utf8  # ???? JDBC URL
+    username: root   #?????????
+    password: 0921Txwjp@  #????????
+
+server:
+  port: 80
